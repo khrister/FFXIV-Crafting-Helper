@@ -60,6 +60,18 @@ This will add an item to the scripts dropdown named "3.5* 70D". When executed it
   }
 }
 ```
+For modified keys, this will add an item called "Modified named key". When executed it till press Shift, Numpad multiply, release shift, and wait 10 seconds.
+```
+{
+  "Modified named key": {
+    "macros": [
+    {
+      "hotkey": "{Shift down}{NumpadMult}{Shift Up}",
+      "duration": 10
+    }]
+  }
+}
+```
 
 ### JSON.ahk
 lib file required by main script.
