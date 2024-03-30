@@ -61,8 +61,7 @@ This will add an item to the scripts dropdown named "3.5* 70D". When executed it
 }
 ```
 For modified keys, this will add an item called "Modified named key".
-When execu
-ted it will press Shift, Numpad multiply, release Shift, and wait 10
+When executed it will press Shift, Numpad multiply, release Shift, and wait 10
 seconds.
 ```
 {
